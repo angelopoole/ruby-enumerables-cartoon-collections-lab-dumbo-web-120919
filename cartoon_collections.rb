@@ -1,3 +1,14 @@
+dwarves = %w[
+  Doc
+  Dopey
+  Bashful
+  Grumpy
+  Sneezy
+  Sleepy
+  Happy
+]
+
+
 def roll_call_dwarves(array)# code an argument here
   # Your code here
   array.each_with_index do |dwarf, index|
@@ -5,7 +16,7 @@ def roll_call_dwarves(array)# code an argument here
   end
 end
 
-roll_call_dwarves(array)
+roll_call_dwarves(dwarves)
 
 
 def summon_captain_planet# code an argument here
